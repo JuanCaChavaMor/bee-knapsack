@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bee-knapsack"
+version = "0.1.0"
+description = "Bee-inspired local search for the 0-1 knapsack problem"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
